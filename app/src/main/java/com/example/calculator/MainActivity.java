@@ -127,4 +127,9 @@ public class MainActivity extends AppCompatActivity {
             firstNum = result;
         });
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
